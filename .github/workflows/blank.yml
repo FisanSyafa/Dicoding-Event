@@ -2,9 +2,9 @@ name: Android CI    #Nama workflow ini
 
 on: 
   push:
-    branches: [ main ]    #workflow akan berjalan setiap kali ada push ke branch main
+    branches: [ master ]    #workflow akan berjalan setiap kali ada push ke branch main
   pull_request:
-    branches: [ main ]    #workflow juga akan berjalan setiap kali ada pull_request yang ditujukan pada branch main  
+    branches: [ master ]    #workflow juga akan berjalan setiap kali ada pull_request yang ditujukan pada branch main  
 
 jobs:
   build:
